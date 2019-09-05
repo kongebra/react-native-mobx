@@ -1,11 +1,12 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import NavigationWrapper from "./app/navigation/navigation-wrapper";
 
 export default function App() {
     return (
-        <View style={styles.container}>
-            <Text>Hello Worlds!</Text>
-        </View>
+        <NavigationWrapper>
+            <script src="http://localhost:8097"></script>
+        </NavigationWrapper>
     );
 }
 
